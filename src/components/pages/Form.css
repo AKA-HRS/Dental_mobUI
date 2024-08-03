@@ -1,0 +1,31 @@
+.form {
+  background: linear-gradient(95deg, #ffffff69 , transparent 10%),
+  linear-gradient(360deg, #268fee 10%, transparent 100%),
+    linear-gradient(265deg, rgba(255, 166, 0, 0.39), transparent 10%),
+    rgb(37,27,25);
+  backdrop-filter: blur(12px); 
+  -webkit-backdrop-filter: blur(12px);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #88888842;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #8888882d transparent;
+}
